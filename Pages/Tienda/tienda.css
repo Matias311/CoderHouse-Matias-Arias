@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #EAEEF0;
+    box-sizing: border-box;
+
+}
+
+/* Barra de navegacion */
+
+nav {
+
+    display: flex;
+    padding: 10px 40px 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-left {
+
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+}
+
+.nav-left a {
+
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+    transition: 0.5s;
+
+}
+
+.nav-left a:hover {
+
+    color: #5f7a86;
+    font-size: 17px;
+}
+
+.nav-right {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.btn-cuenta {
+
+    width: 116px;
+    height: 45px;
+    padding: 5px 14px;
+    border-radius: 75px;
+    background-color: #D1DAE0;
+    box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
+    border: none;
+    transition: 1s;
+
+}
+
+.btn-cuenta:hover {
+
+    width: 118;
+    height: 50px;
+
+}
+
+.btn-cuenta img {
+
+    width: 16px;
+    height: 16px;
+
+}
+
+.btn-cuenta a {
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+
+}
+
+
+.btn-carrito {
+
+    width: 116px;
+    height: 45px;
+    padding: 5px 14px;
+    border-radius: 75px;
+    background-color: #A6D7F2;
+    box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
+    border: none;
+    transition: 1s;
+
+}
+
+.btn-carrito:hover {
+
+    width: 118;
+    height: 50px;
+
+}
+
+.btn-carrito img {
+
+    width: 16px;
+    height: 16px;
+
+}
+
+.btn-carrito a {
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    color: #000;
+
+}
+
+
+
+    /* Contenido */
+
+    
+    /* Footer */
+
+footer {
+
+    display: flex;
+    flex-direction: column;
+    background: #000;
+    padding: 20px 60px 10px 60px;
+
+}
+
+.container__footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.seccion__1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.seccion__1 h1{
+
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 0px;
+
+}
+
+.seccion__1 h2 {
+
+    margin: 0;
+
+}
+
+.seccion__1 a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    transition: 0.5s;
+
+}
+
+.seccion__1 a:hover {
+
+    color: #5f7a86;
+
+}
+
+.seccion__2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.seccion__2 h1{
+
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 0px;
+    margin-top: 40px;
+
+}
+
+.seccion__2 h2 {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.seccion__2 h2:hover {
+
+    color: #5f7a86;
+
+}
+
+.seccion__3 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.seccion__3 h1 {
+
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 0;
+
+}
+
+.seccion__3 a {
+
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    transition: 0.5s;
+
+}
+
+.seccion__3 a:hover {
+
+    color: #5f7a86;
+
+}
+
+.seccion__4 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.seccion__4 h1{
+
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.seccion__4 img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.coppyrigght {
+
+    align-self: center;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 15px;
+    
+}    
