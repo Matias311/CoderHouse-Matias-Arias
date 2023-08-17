@@ -23,7 +23,7 @@ nav {
 .nav-left {
 
     display: flex;
-    gap: 12px;
+    gap: 15px;
     align-items: center;
 
 }
@@ -34,7 +34,8 @@ nav {
     font-family: 'Nunito', sans-serif;
     color: #000;
     transition: 0.5s;
-
+    padding-right: 10px;
+    
 }
 
 .nav-left a:hover {
@@ -66,8 +67,7 @@ nav {
 
 .btn-cuenta:hover {
 
-    width: 118;
-    height: 50px;
+    transform: scale(1.02);
 
 }
 
@@ -104,8 +104,7 @@ nav {
 
 .btn-carrito:hover {
 
-    width: 118;
-    height: 50px;
+    transform: scale(1.02);
 
 }
 
@@ -123,6 +122,13 @@ nav {
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     color: #000;
+
+}
+
+.menuhamburgesa {
+
+    width: 25px;
+    display: none;
 
 }
 
@@ -223,8 +229,7 @@ nav {
 
 .container__contenido-textos button:hover {
 
-    width: 155px;
-    height: 59px;
+    transform: scale(1.02);
 
 }
 
@@ -521,4 +526,146 @@ footer {
     font-weight: 600;
     margin: 15px;
     
+}
+
+@media (min-width:320px) and (max-width: 480px) {
+
+    
+    .nav-left {
+
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .nav-left img {
+
+        width: 30px;
+
+    }
+    
+    .nav-left__anchor {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 100px;
+        gap: 10px;
+        align-items: end;
+        display: none;
+
+    }
+
+    .nav-right {
+
+        gap: 22px;
+
+    }
+
+    .btn-cuenta {
+
+        background: none;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+    .btn-cuenta a {
+
+        font-size: 0;
+
+    }
+    .btn-carrito {
+
+        background: none;
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+
+
+
+    .btn-carrito a {
+
+        font-size: 0;
+
+    }
+
+    .menuhamburgesa {
+
+        display: flex;
+
+    }
+
+    .container__contenido {
+
+        width: 90%;
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .container__contenido img {
+
+        height: 50%;
+        width: auto;
+        border-radius: 20px 20px 0px 0px;
+
+    }
+    
+    .container__contenido-textos {
+
+        padding: 12px 0px;
+
+    }
+
+    .container__contenido-textos h2 {
+
+        font-size: 20px;
+        margin: 0;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .container__contenido-textos h1 {
+
+        font-size: 25px;
+        padding: 0px 5px 0px 5px;
+
+    }
+
+    .container__contenido-textos p {
+
+        font-size: 15px;
+        padding: 0px 5px 0px 5px;
+        margin: 0px 0px 5px 0px;
+
+    }
+
+    .container__contenido-textos button {
+
+        margin: 0;
+        
+    }
+
+    .container__alfajores-titulos {
+
+        padding: 10px;
+
+    }
+
+
+    footer {
+
+        padding: 0px;
+    }
+
+
+    .container__footer {
+
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+
+    }
+
 }
