@@ -562,19 +562,25 @@ footer {
         position: absolute;
         right: 0;
         top: 50.4px;
-        height: 30%;
-        width: 35%;
+        height: 25%;
+        width: 40%;
         padding-right: 25px;
         padding-top: 20px;
         gap: 10px;
-        align-items: flex-start;
+        align-items: end;
+        justify-content: flex-start;
         background: #EAEEF0;
         border-left: 1px solid #A6D7F2;
         border-bottom: 1px solid #A6D7F2;
         box-shadow: 0 0 0 100vmax rgba(182, 182, 220, 0.158);
         opacity: 0;
         visibility: hidden;
-        padding: 5px 0px 0px 5px;
+
+    }
+
+    .nav-left__anchor a {
+
+        padding: 0px 18px;
 
     }
 
@@ -582,7 +588,7 @@ footer {
 
         opacity: 1;
         visibility: visible;
-        padding: 10px 0px 0px 5px;
+        padding: 30px 0px 0px 0px;
     }
 
     .close-active {
@@ -654,8 +660,8 @@ footer {
 
     .container__contenido {
 
-        width: 90%;
-        height: 80%;
+        width: 85%;
+        height: 90%;
         flex-direction: column;
         gap: 0px;
 
@@ -709,6 +715,12 @@ footer {
 
     }
 
+    .container__alfajores-imagenes {
+
+        padding: 10px 20px 30px 20px;
+        
+    }
+
     .container__video video {
 
         height: 200px;
@@ -728,5 +740,5 @@ footer {
         padding-left: 10px;
 
     }
-    
+
 }
