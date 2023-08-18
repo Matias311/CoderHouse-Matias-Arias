@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
 body {
 
     margin: 0;
@@ -537,6 +544,12 @@ footer {
 
 @media (min-width:320px) and (max-width: 480px) {
 
+    body {
+        
+        user-select: none;
+
+    }
+    
     nav {
 
         padding: 10px 10px;
@@ -718,7 +731,24 @@ footer {
 
     .container__alfajores-imagenes {
 
-        padding: 10px 20px 30px 20px;
+        overflow-y: auto;
+        scroll-behavior: auto;
+        overscroll-behavior-x: x mandatory;
+        scrollbar-width: none;
+        padding: 10px 0px 30px 0px;
+    }
+
+    .container__alfajores-imagenes::-webkit-scrollbar {
+
+        display: none;
+
+    }
+
+    .producto__container {
+
+        scroll-snap-align: start;
+        min-height: 200px;
+        min-width: 300px;
 
     }
 
