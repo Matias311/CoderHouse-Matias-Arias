@@ -196,7 +196,7 @@ nav {
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-    background: linear-gradient(#A6D7F2, #D1DAE0, #5f7a86);
+    background: linear-gradient(#40bcff, #a7c6da, #6490a3);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -545,7 +545,7 @@ footer {
 @media (min-width:320px) and (max-width: 480px) {
 
     body {
-        
+
         user-select: none;
 
     }
@@ -674,7 +674,7 @@ footer {
 
     .container__contenido {
 
-        width: 85%;
+        width: 83%;
         height: 90%;
         flex-direction: column;
         gap: 0px;
