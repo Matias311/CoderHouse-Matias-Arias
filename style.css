@@ -580,7 +580,7 @@ footer {
 
     .nav-left__anchor a {
 
-        padding: 0px 18px;
+        padding: 0px 10px 0px 0px;
 
     }
 
@@ -589,12 +589,13 @@ footer {
         opacity: 1;
         visibility: visible;
         padding: 30px 0px 0px 0px;
+
     }
 
     .close-active {
 
         display: flex;
-
+        width: 25px;
     }
 
     .nav-right {
@@ -718,7 +719,7 @@ footer {
     .container__alfajores-imagenes {
 
         padding: 10px 20px 30px 20px;
-        
+
     }
 
     .container__video video {
