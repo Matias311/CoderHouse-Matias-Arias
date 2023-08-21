@@ -542,8 +542,12 @@ footer {
     
 }
 
-@media (min-width:320px) and (max-width: 480px) {
+    /* Mobile responsibe */
 
+@media (min-width:320px) and (max-width: 768px) {
+
+    /* Nav */
+    
     body {
 
         user-select: none;
@@ -672,6 +676,8 @@ footer {
         
     }
 
+    /* Container de titulo */
+
     .container__contenido {
 
         width: 83%;
@@ -723,6 +729,8 @@ footer {
 
     }
 
+    /* Alfajores */
+
     .container__alfajores-titulos {
 
         padding: 10px;
@@ -752,10 +760,14 @@ footer {
 
     }
 
+    /* video */
+
     .container__video video {
 
         height: 200px;
     }
+
+    /* Footer */
 
 
     footer {
@@ -772,4 +784,14 @@ footer {
 
     }
 
+}
+
+
+    /* Tablet version */
+
+@media (min-width:768px) and (max-width: 1024px) {
+
+    
+
+    
 }
