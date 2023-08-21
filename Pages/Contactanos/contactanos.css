@@ -159,7 +159,6 @@ nav {
     background-image: url(../../img/stacked-peaks-haikei.png);
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
 
 }
 
@@ -174,6 +173,7 @@ nav {
     border-radius: 20px;
     background: #EAEEF0;
     padding: 20px 20px 20px 40px;
+    box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
 
 }
 
