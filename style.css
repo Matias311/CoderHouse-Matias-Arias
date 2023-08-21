@@ -544,7 +544,7 @@ footer {
 
     /* Mobile responsibe */
 
-@media (min-width:320px) and (max-width: 768px) {
+@media (min-width:320px) and (max-width: 760px) {
 
     /* Nav */
     
@@ -789,9 +789,13 @@ footer {
 
     /* Tablet version */
 
-@media (min-width:768px) and (max-width: 1024px) {
+@media (min-width:760px) and (max-width: 1024px) {
 
-    
+    .container__contenido {
+
+        width: 80%;
+
+    }
 
     
 }
