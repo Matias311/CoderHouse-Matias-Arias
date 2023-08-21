@@ -92,7 +92,7 @@ nav {
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     color: #000;
-    
+
 }
 
 
@@ -177,7 +177,7 @@ nav {
 
 }
 
-.container__form h1{
+.container__form h1 {
 
     color: #000;
     text-align: center;
@@ -195,7 +195,7 @@ nav {
     font-size: 20px;
     font-weight: 400;
     font-family: 'Nunito', sans-serif;
-    
+
 
 }
 
@@ -262,7 +262,7 @@ nav {
     background: #D1DAE0;
     outline: none;
     padding: 0px 10px;
-}   
+}
 
 #telefono {
 
@@ -629,7 +629,7 @@ footer {
     /* Contactos form */
 
     .container__form {
-        
+
         width: 70%;
         height: 70%;
         padding: 20px 40px;
@@ -638,13 +638,13 @@ footer {
 
     .container__form h1 {
 
-        font-size: 28px;
-    
+        font-size: 1.75rem;
+
     }
 
     .container__form p {
 
-        font-size: 15px;
+        font-size: 1rem;
 
     }
 
@@ -665,7 +665,7 @@ footer {
 
         padding-bottom: 10px;
     }
-    
+
     .label-email label {
 
         padding-bottom: 10px;
@@ -696,7 +696,7 @@ footer {
 
     .label {
 
-        font-size: 15px;
+        font-size: 1rem;
 
     }
 
@@ -727,7 +727,7 @@ footer {
 }
 
 
-    /* Tablet version */
+/* Tablet version */
 
 @media (min-width:760px) and (max-width: 1024px) {
 
@@ -738,7 +738,7 @@ footer {
         width: 75%;
 
     }
-    
+
     .label-nombre input {
 
         width: 250px;
@@ -750,17 +750,76 @@ footer {
         width: 250px;
 
     }
-    
+
     #telefono {
 
         width: auto;
     }
-    
+
     #mensaje {
 
         width: 542px;
         height: 200px;
 
     }
+
+}
+
+@media all and (orientation: landscape) {
+
+    .container-label-all {
+
+        flex-direction: row;
+
+    }
+
+    .label-nombre input {
+
+        width:  190px;
+
+    }
+    
+    .label-email input {
+
+        width:  190px;
+
+    }
+
+    .label-nombre label {
+
+        padding-bottom: 5px;
+        
+    }
+    .label-email label {
+
+        padding-bottom: 5px;
+
+    }
+
+    .formulario__container {
+
+        gap: 5px;
+
+    }
+    
+    .container__form {
+
+        height: 80%;
+        min-height: 80%;
+        
+    }
+
+    .container__form p {
+
+        margin: 5px;
+
+    }
+
+    #mensaje {
+
+        height: 50px;
+
+    }
+
 
 }
