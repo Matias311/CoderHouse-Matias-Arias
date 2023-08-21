@@ -68,13 +68,13 @@ nav {
     background-color: #D1DAE0;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
+    transition: .2s;
 
 }
 
 .btn-cuenta:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -92,7 +92,7 @@ nav {
     font-size: 16px;
     font-family: 'Nunito', sans-serif;
     color: #000;
-
+    
 }
 
 
@@ -105,13 +105,13 @@ nav {
     background-color: #A6D7F2;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
+    transition: .2s;
 
 }
 
 .btn-carrito:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -159,6 +159,7 @@ nav {
     background-image: url(../../img/stacked-peaks-haikei.png);
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
 
 }
 
@@ -169,7 +170,7 @@ nav {
     align-items: center;
     justify-content: center;
     width: 60%;
-    height: 70%;
+    height: 75%;
     border-radius: 20px;
     background: #EAEEF0;
     padding: 20px 20px 20px 40px;
@@ -287,7 +288,7 @@ nav {
 .container__form button {
 
     width: 130px;
-    height: 32px;
+    height: 35px;
     border: 1px solid #5f7a86;
     background: #A6D7F2;
     color: #000;
@@ -297,7 +298,19 @@ nav {
     font-weight: 400;
     font-family: 'Nunito', sans-serif;
     align-self: flex-start;
+    transition: 0.3s;
+
 }
+
+.container__form button:hover {
+
+    transform: scale(0.95);
+    border: 1px solid #A6D7F2;
+    color: #EAEEF0;
+    background: #5f7a86;
+
+}
+
 
 
 /* Footer */

@@ -68,13 +68,13 @@ nav {
     background-color: #D1DAE0;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
+    transition: .2s;
 
 }
 
 .btn-cuenta:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -105,13 +105,13 @@ nav {
     background-color: #A6D7F2;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
+    transition: .2s;
 
 }
 
 .btn-carrito:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -236,14 +236,14 @@ nav {
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    transition: .5s;
+    transition: .2s;
     cursor: pointer;
 
 }
 
 .container__contenido-textos button:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
