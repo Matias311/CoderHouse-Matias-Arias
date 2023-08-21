@@ -731,12 +731,6 @@ footer {
 
 @media (min-width:760px) and (max-width: 1024px) {
 
-    .container {
-
-        height: 100vh;
-
-    }
-
     .container__form {
 
         height: 70%;
@@ -744,27 +738,16 @@ footer {
 
     }
 
-    .container__form h1 {
-
-        font-size: 30px;
-
-    }
-
-    .formulario__container {
-
-        gap: 5px;
-
-    }
 
     .label-nombre input {
 
         width: 250px;
-        height: 20px;
+        height: 30px;
 
     }
     .label-nombre label {
 
-        padding-bottom: 5px;
+        padding-bottom: 10px;
 
     }
     .label-email label {
@@ -776,14 +759,14 @@ footer {
     .label-email input {
 
         width: 250px;
-        height: 20px;
+        height: 30px;
 
     }
 
     #telefono {
 
         width: auto;
-        height: 20px;
+        height: 30px;
     }
 
     #mensaje {
@@ -797,7 +780,6 @@ footer {
     .container__form p {
 
         font-size: 15px;
-        margin: 5px;
 
     }
 
@@ -809,3 +791,59 @@ footer {
 
 }
 
+@media (min-width:760px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .container__form h1 {
+
+        font-size: 25px;
+
+    }
+
+    .container__form p {
+
+        margin: 5px;
+
+    }
+
+    .label-nombre label {
+
+        padding-bottom: 5px;
+        
+    }
+    .label-email label {
+
+        padding-bottom: 5px;
+
+    }
+
+    .label-nombre input {
+
+        height: 20px;
+
+    }
+
+    .label-email input {
+
+        height: 20px;
+
+    }
+
+    #telefono {
+
+        height: 20px;
+
+    }
+
+    #mensaje {
+
+        height: 40px;
+        
+    }
+
+    .formulario__container {
+
+        gap: 5px;
+
+    }
+
+}
