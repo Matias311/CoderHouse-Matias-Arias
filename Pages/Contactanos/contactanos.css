@@ -793,6 +793,12 @@ footer {
 
 @media (min-width:760px) and (max-width: 1024px) and (orientation: landscape) {
 
+    .container__form {
+
+        height: 80%;
+
+    }
+    
     .container__form h1 {
 
         font-size: 25px;
@@ -837,7 +843,7 @@ footer {
     #mensaje {
 
         height: 40px;
-        
+
     }
 
     .formulario__container {
