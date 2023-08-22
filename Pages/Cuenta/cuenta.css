@@ -631,13 +631,34 @@ footer {
 
     .container-form {
 
-        height: 85%;
+        height: 80%;
+
+    }
+
+    .container-form h1 {
+
+        margin: 5px;
+        font-size: 25px;
+
+    }
+
+    .container-form label {
+
+        font-size: 15px;
 
     }
 
     .container-form a {
 
         padding: 10px 0px 0px 20px;
+        font-size: 13px;
+
+    }
+
+    .container-form button {
+
+        width: 150px;
+        font-size: 15px;
 
     }
 
