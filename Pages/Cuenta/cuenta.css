@@ -68,13 +68,13 @@ nav {
     background-color: #D1DAE0;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
-
+    transition: .2s;
+    
 }
 
 .btn-cuenta:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -82,6 +82,7 @@ nav {
 
     width: 16px;
     height: 16px;
+    display: inline;
 
 }
 
@@ -105,13 +106,13 @@ nav {
     background-color: #A6D7F2;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
+    transition: .2s;
 
 }
 
 .btn-carrito:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -119,6 +120,7 @@ nav {
 
     width: 16px;
     height: 16px;
+    display: inline;
 
 }
 
@@ -146,9 +148,117 @@ nav {
 
 }
 
-
-
 /* Contenido */
+
+.container {
+
+    height: 100vh;
+    background-image: url(../../img/stacked-peaks-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #EAEEF0;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
+    width: 50%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-form h1 {
+
+    color: #000;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.container-form label {
+
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.container-form-correo {
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-form-contrasena {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-form input {
+
+    width: 294px;
+    height: 25px;
+    margin-top: 10px;
+    border: 1px solid #5f7a86;
+    background: #D1DAE0;
+    outline: none;
+
+}
+
+#contrasena {
+
+    margin-bottom: 20px;
+
+}
+
+.container-form button {
+
+    width: 268px;
+    height: 43px;
+    border: 1px solid #5f7a86;
+    background-color: #A6D7F2;
+    color: #000;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+
+.container-form a {
+
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    align-self: self-start;
+    padding: 50px 0px 0px 20px;
+
+}
 
 
 /* Footer */
@@ -326,5 +436,159 @@ footer {
     font-style: normal;
     font-weight: 600;
     margin: 15px;
+
+}
+
+
+    /* Mobile responsibe */
+
+@media (min-width:320px) and (max-width: 760px) {
+
+    /* Nav */
+    
+    body {
+
+        user-select: none;
+
+    }
+    
+    nav {
+
+        padding: 10px 10px;
+    }
+
+
+    .nav-left {
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-left img {
+
+        width: 30px;
+
+    }
+
+    .nav-left__anchor {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 50.4px;
+        height: 25%;
+        width: 40%;
+        padding-right: 25px;
+        padding-top: 20px;
+        gap: 10px;
+        align-items: end;
+        justify-content: flex-start;
+        background: #EAEEF0;
+        border-left: 1px solid #A6D7F2;
+        border-bottom: 1px solid #A6D7F2;
+        box-shadow: 0 0 0 100vmax rgba(182, 182, 220, 0.158);
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    .nav-left__anchor a {
+
+        padding: 0px 10px 0px 0px;
+
+    }
+
+    .visible {
+
+        opacity: 1;
+        visibility: visible;
+        padding: 30px 0px 0px 0px;
+
+    }
+
+    .close-active {
+
+        display: flex;
+        width: 25px;
+    }
+
+    .nav-right {
+
+        gap: 22px;
+
+    }
+
+    .btn-cuenta {
+
+        background: none;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn-cuenta img {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .btn-cuenta a {
+
+        font-size: 0;
+
+    }
+
+    .btn-carrito {
+
+        background: none;
+        height: auto;
+        padding: 0;
+        width: 25px;
+
+    }
+
+    .btn-carrito img {
+
+        width: 25px;
+        height: auto;
+    }
+
+    .btn-carrito a {
+
+        font-size: 0;
+
+    }
+
+    .menuhamburgesa {
+
+        display: flex;
+        width: 25px;
+
+    }
+
+    .menuhamburgesa-active {
+
+        display: none;
+        
+    }
+
+   /* Footer */
+
+
+    footer {
+
+        padding: 0px;
+    }
+
+
+    .container__footer {
+
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+
+    }
 
 }

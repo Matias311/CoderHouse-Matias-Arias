@@ -16,7 +16,9 @@
     <header>
       <nav>
         <div class="nav-left">
-          <img src="../../img/icons8-cookie-50.png" alt="Logo" />
+          <a href="../../index.html"
+            ><img src="../../img/icons8-cookie-50.png" alt="Logo"
+          /></a>
           <div class="nav-left__anchor" id="texto">
             <a href="../../index.html">Inicio</a>
             <a href="../Tienda/tienda.html">Tienda</a>
@@ -44,12 +46,31 @@
             class="menuhamburgesa"
             id="menu"
           />
-          <img src="../../img/icons8-close-50.png" alt="cerrar" class="close" id="close">
+          <img
+            src="../../img/icons8-close-50.png"
+            alt="cerrar"
+            class="close"
+            id="close"
+          />
         </div>
       </nav>
     </header>
     <!-- Contenido -->
-    <main></main>
+    <main class="container">
+      <form action="" class="container-form">
+        <h1>Inicio de sesion</h1>
+        <div class="container-form-correo">
+          <label for="email">Correo Electronico</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="container-form-contrasena">
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" required/>
+        </div>
+        <button type="submit">Ingresar</button>
+        <a href="#">Crear Cuenta</a>
+      </form>
+    </main>
     <!-- Footer -->
     <footer>
       <div class="container__footer">
