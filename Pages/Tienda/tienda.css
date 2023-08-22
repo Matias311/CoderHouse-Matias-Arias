@@ -68,13 +68,13 @@ nav {
     background-color: #D1DAE0;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
+    transition: .2s;
 
 }
 
 .btn-cuenta:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -105,13 +105,13 @@ nav {
     background-color: #A6D7F2;
     box-shadow: 0px 4px 4px 0px rgba(209, 218, 224, 0.25);
     border: none;
-    transition: .5s;
+    transition: .2s;
 
 }
 
 .btn-carrito:hover {
 
-    transform: scale(1.03);
+    transform: scale(1.05);
 
 }
 
@@ -147,10 +147,115 @@ nav {
 }
 
 
-
     /* Contenido */
 
-    
+.container {
+
+    display: flex;
+    margin: 0;
+    padding: 30px 0px;
+
+}
+
+aside {
+
+    display: flex;
+    height: 90vh;
+    width: 20%;
+}
+
+.list-group-item {
+
+    background: #EAEEF0;
+    border: none;
+
+}
+
+.list-group h1 {
+
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.container-alfajores {
+
+   display: flex;
+   flex-direction: column; 
+   padding-left: 20px;
+   width: 80%;
+
+}
+
+.container-titulos {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-titulos h1 {
+
+    color: #000;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.card-container {
+
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-container-div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card-container-div img {
+
+    width: 180px;
+    height: 154px;
+    box-shadow: 9px 5px 11px 0px #D1DAE0;
+
+}
+
+.card-container-div h1 {
+
+    color: #5f7a86;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    padding: 5px 0px;
+}
+
+.card-container-div p {
+
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    padding: 0px 0px 5px 0px;
+
+}
+
+ 
     /* Footer */
 
 footer {
@@ -327,4 +432,162 @@ footer {
     font-weight: 600;
     margin: 15px;
     
-}    
+}   
+
+
+    /* Mobile responsibe */
+
+@media (min-width:320px) and (max-width: 760px) {
+
+    /* Nav */
+    
+    body {
+
+        user-select: none;
+
+    }
+    
+    nav {
+
+        padding: 10px 10px;
+    }
+
+
+    .nav-left {
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-left img {
+
+        width: 30px;
+
+    }
+
+    .nav-left__anchor {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 50.4px;
+        height: 25%;
+        width: 40%;
+        padding-right: 25px;
+        padding-top: 20px;
+        gap: 10px;
+        align-items: end;
+        justify-content: flex-start;
+        background: #EAEEF0;
+        border-left: 1px solid #A6D7F2;
+        border-bottom: 1px solid #A6D7F2;
+        box-shadow: 0 0 0 100vmax rgba(182, 182, 220, 0.158);
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    .nav-left__anchor a {
+
+        padding: 0px 10px 0px 0px;
+
+    }
+
+    .visible {
+
+        opacity: 1;
+        visibility: visible;
+        padding: 30px 0px 0px 0px;
+
+    }
+
+    .close-active {
+
+        display: flex;
+        width: 25px;
+    }
+
+    .nav-right {
+
+        gap: 22px;
+
+    }
+
+    .btn-cuenta {
+
+        background: none;
+        padding: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .btn-cuenta img {
+
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .btn-cuenta a {
+
+        font-size: 0;
+
+    }
+
+    .btn-carrito {
+
+        background: none;
+        height: auto;
+        padding: 0;
+        width: 25px;
+
+    }
+
+    .btn-carrito img {
+
+        width: 25px;
+        height: auto;
+    }
+
+    .btn-carrito a {
+
+        font-size: 0;
+
+    }
+
+    .menuhamburgesa {
+
+        display: flex;
+        width: 25px;
+
+    }
+
+    .menuhamburgesa-active {
+
+        display: none;
+        
+    }
+
+    /* Contenido */
+
+
+
+   /* Footer */
+
+
+    footer {
+
+        padding: 0px;
+    }
+
+
+    .container__footer {
+
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+
+    }
+
+}
