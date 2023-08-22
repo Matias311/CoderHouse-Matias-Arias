@@ -574,6 +574,22 @@ footer {
         
     }
 
+    /* Contanedo */
+
+    .container-form {
+
+        width: 80%;
+
+    }
+
+    .container-form a {
+
+        padding: 60px 0px 0px 15px;
+
+    }   
+
+
+
    /* Footer */
 
 
@@ -591,4 +607,39 @@ footer {
 
     }
 
+}
+
+
+    /* Tablet version */
+
+@media (min-width:760px) and (max-width: 1024px)  {
+
+
+    .container-form {
+
+        height: 40%;
+    }
+    
+}
+
+
+
+
+    /* Tablet version */
+
+@media (min-width:760px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .container-form {
+
+        height: 85%;
+
+    }
+
+    .container-form a {
+
+        padding: 10px 0px 0px 20px;
+
+    }
+
+    
 }
