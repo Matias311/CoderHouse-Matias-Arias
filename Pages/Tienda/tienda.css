@@ -152,8 +152,7 @@ nav {
 .container {
 
     display: flex;
-    margin: 0;
-    padding: 30px 0px;
+
 
 }
 
@@ -193,6 +192,7 @@ aside {
 
     display: flex;
     justify-content: space-between;
+    width: 100%;
 
 }
 
@@ -211,12 +211,32 @@ aside {
 
     padding-top: 20px;
     display: flex;
-    gap: 20px;
+    gap: 8%;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
-.card-container-div {
+.card {
+
+    width: 25%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+
+}
+
+.card img {
+
+    width: 100%;
+    box-shadow: 9px 5px 11px 0px #D1DAE0;
+
+}
+
+.card-body {
 
     display: flex;
     flex-direction: column;
@@ -224,34 +244,22 @@ aside {
 
 }
 
-.card-container-div img {
-
-    width: 180px;
-    height: 154px;
-    box-shadow: 9px 5px 11px 0px #D1DAE0;
-
-}
-
-.card-container-div h1 {
+.card-body h1 {
 
     color: #5f7a86;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    margin: 0;
-    padding: 5px 0px;
+
 }
 
-.card-container-div p {
+.card-body p {
 
     color: #000;
     font-family: 'Nunito', sans-serif;
-    font-size: 15px;
     font-style: normal;
     font-weight: 600;
-    margin: 0;
-    padding: 0px 0px 5px 0px;
 
 }
 
