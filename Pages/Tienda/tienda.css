@@ -152,7 +152,7 @@ nav {
 .container {
 
     display: flex;
-
+    padding: 25px 0px;
 
 }
 
@@ -161,6 +161,12 @@ aside {
     display: flex;
     height: 90vh;
     width: 20%;
+}
+
+.dropdown {
+
+    display: none;
+
 }
 
 .list-group-item {
@@ -177,6 +183,7 @@ aside {
     color: #000;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
+
 }
 
 .container-alfajores {
@@ -204,7 +211,7 @@ aside {
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
-
+    text-decoration: 5px underline #5f7a86;
 }
 
 .card-container {
@@ -299,7 +306,7 @@ footer {
     font-style: normal;
     font-weight: 600;
     margin-left: 0px;
-
+    margin-top: 40px;
 }
 
 .seccion__1 h2 {
@@ -344,7 +351,7 @@ footer {
     font-weight: 600;
     margin-left: 0px;
     margin-top: 40px;
-
+    
 }
 
 .seccion__2 h2 {
@@ -519,15 +526,17 @@ footer {
     .nav-right {
 
         gap: 22px;
-
+        align-items: end;
     }
 
     .btn-cuenta {
 
         background: none;
         padding: 0;
-        width: 20px;
-        height: 20px;
+        width: auto;
+        height: auto;
+        display: flex;
+
     }
 
     .btn-cuenta img {
@@ -548,13 +557,13 @@ footer {
         background: none;
         height: auto;
         padding: 0;
-        width: 25px;
+        width: 20px;
 
     }
 
     .btn-carrito img {
 
-        width: 25px;
+        width: 20px;
         height: auto;
     }
 
@@ -567,8 +576,8 @@ footer {
     .menuhamburgesa {
 
         display: flex;
-        width: 25px;
-
+        width: 20px;
+        align-self: flex-end;
     }
 
     .menuhamburgesa-active {
@@ -579,7 +588,54 @@ footer {
 
     /* Contenido */
 
+    .container {
 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    aside {
+
+        display: none;
+
+    }
+
+    .dropdown {
+
+        display: flex;
+        align-self: self-start;
+        padding-left: 10px;
+
+    }
+
+    .dropdown-img {
+
+        width: 20px;
+
+    }
+
+    .btn-primary {
+
+        background: transparent;
+        border: 1px solid #5f7a86;
+        color: #000;
+        
+    }
+
+    .btn-primary:hover {
+
+        background: transparent;
+        border: 1px solid #5f7a86;
+        color: #000;
+
+    }
+
+    .container-titulos {
+
+        display: none;
+
+    }
 
    /* Footer */
 
@@ -594,8 +650,13 @@ footer {
 
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 10px;
+        padding: 20px 0px 20px 10px;
+        gap: 30px;
 
+    }
+
+    .seccion__2 h1 {
+        margin: 0;
     }
 
 }
