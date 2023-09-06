@@ -521,7 +521,8 @@ footer {
     .close-active {
 
         display: flex;
-        width: 25px;
+        width: 20px;
+        
     }
 
     .nav-right {
