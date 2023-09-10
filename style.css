@@ -2,7 +2,7 @@
 
 html {
 
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
 
 }
 
@@ -330,8 +330,8 @@ nav {
 
 .producto__container img{
 
-    width: 150px;
-    height: 150px;
+    width: 210px;
+    height: 210px;
     padding: 10px;
 }
 
@@ -757,8 +757,8 @@ footer {
     .producto__container {
 
         scroll-snap-align: start;
-        min-height: 200px;
-        min-width: 200px;
+        min-height: 255px;
+        min-width: 255px;
 
     }
 
