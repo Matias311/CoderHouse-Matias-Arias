@@ -362,7 +362,7 @@ footer .coppyrigght {
     margin: 15px 0px 10px 0px;
   }
   main .container .container_main .container__main-informacion p {
-    font-size: 18px;
+    font-size: 16px;
     padding: 0px 20px;
   }
   /* Footer */
@@ -380,5 +380,14 @@ footer .coppyrigght {
   .container__contenido {
     width: 80%;
     gap: 20px;
+  }
+  main .container .container_main {
+    height: 70vh;
+    width: 60vw;
+    flex-direction: column;
+  }
+  main .container .container_main img {
+    height: 40%;
+    border-radius: 20px 20px 0px 0px;
   }
 }/*# sourceMappingURL=quienesSomos.css.map */
