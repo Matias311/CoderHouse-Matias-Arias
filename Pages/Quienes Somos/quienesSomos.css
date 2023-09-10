@@ -98,12 +98,6 @@ nav .nav-right .close {
 main {
   box-sizing: border-box;
 }
-main video {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 200px;
-}
 main .container {
   background-image: url(../../../img/stacked-peaks-haikei.png);
   background-size: cover;
