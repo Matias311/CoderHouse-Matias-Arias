@@ -153,7 +153,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(./img/stacked-peaks-haikei.png), lightgray 50% / cover no-repeat;;
+    background: url(./img/fondo.png), lightgray 50% / cover no-repeat;;
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;

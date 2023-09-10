@@ -153,7 +153,7 @@ nav {
 .container {
 
     height: 100vh;
-    background-image: url(../../img/stacked-peaks-haikei.png);
+    background-image: url(../../img/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
