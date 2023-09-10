@@ -350,8 +350,8 @@ footer .coppyrigght {
   }
   main .container .container_main {
     flex-direction: column;
-    width: 90vw;
-    height: 95vh;
+    width: 90%;
+    height: 90%;
   }
   main .container .container_main img {
     height: 40%;
@@ -375,6 +375,27 @@ footer .coppyrigght {
     padding-left: 10px;
   }
 }
+@media (min-width: 320px) and (max-width: 760px) and (orientation: landscape) {
+  main .container .container_main {
+    height: 95vh;
+    width: 90vw;
+    flex-direction: row;
+  }
+  main .container .container_main img {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+  }
+  main .container .container_main .container__main-informacion h1 {
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+  }
+  main .container .container_main .container__main-informacion p {
+    font-size: 15px;
+    padding: 0px 20px;
+    text-align: center;
+  }
+}
 /* Tablet version */
 @media (min-width: 760px) and (max-width: 1024px) {
   .container__contenido {
@@ -382,12 +403,43 @@ footer .coppyrigght {
     gap: 20px;
   }
   main .container .container_main {
-    height: 70vh;
+    height: 80vh;
     width: 60vw;
     flex-direction: column;
   }
   main .container .container_main img {
-    height: 40%;
+    height: 50%;
     border-radius: 20px 20px 0px 0px;
+  }
+  main .container .container_main .container__main-informacion h1 {
+    font-size: 30px;
+    margin: 15px 0px 10px 0px;
+  }
+  main .container .container_main .container__main-informacion p {
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1024px) and (orientation: landscape) {
+  main .container {
+    height: 100vh;
+  }
+  main .container .container_main {
+    flex-direction: row;
+    height: 75%;
+    width: 90%;
+  }
+  main .container .container_main img {
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+  }
+  main .container .container_main .container__main-informacion h1 {
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+  }
+  main .container .container_main .container__main-informacion p {
+    font-size: 15px;
+    padding: 0px 20px;
   }
 }/*# sourceMappingURL=quienesSomos.css.map */
