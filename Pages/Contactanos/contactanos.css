@@ -498,13 +498,13 @@ footer {
 
 
     /* Nav */
-
+    
     body {
 
         user-select: none;
 
     }
-
+    
     nav {
 
         padding: 10px 10px;
@@ -557,27 +557,31 @@ footer {
         opacity: 1;
         visibility: visible;
         padding: 30px 0px 0px 0px;
+        z-index: 1;
 
     }
 
     .close-active {
 
         display: flex;
-        width: 25px;
+        width: 20px;
+        
     }
 
     .nav-right {
 
         gap: 22px;
-
+        align-items: end;
     }
 
     .btn-cuenta {
 
         background: none;
         padding: 0;
-        width: 20px;
-        height: 20px;
+        width: auto;
+        height: auto;
+        display: flex;
+
     }
 
     .btn-cuenta img {
@@ -596,15 +600,15 @@ footer {
     .btn-carrito {
 
         background: none;
-        height: auto;
+        height: 20px;
         padding: 0;
-        width: 25px;
+        width: 20px;
 
     }
 
     .btn-carrito img {
 
-        width: 25px;
+        width: 20px;
         height: auto;
     }
 
@@ -617,14 +621,14 @@ footer {
     .menuhamburgesa {
 
         display: flex;
-        width: 25px;
-
+        width: 20px;
+        align-self: flex-end;
     }
 
     .menuhamburgesa-active {
 
         display: none;
-
+        
     }
 
     /* Contactos form */

@@ -4,18 +4,18 @@
 
     /* Nav */
 
-    body {
+        body {
 
         user-select: none;
 
-    }
+        }
 
     nav {
 
         padding: 10px 10px;
 
         .nav-left {
-
+    
             align-items: center;
             justify-content: center;
 
@@ -45,92 +45,98 @@
                 box-shadow: 0 0 0 100vmax rgba(182, 182, 220, 0.158);
                 opacity: 0;
                 visibility: hidden;
-
+                
                 a {
 
                     padding: 0px 10px 0px 0px;
 
                 }
                 
-            }   
+                
+            }
             
             .visible {
     
                 opacity: 1;
                 visibility: visible;
                 padding: 30px 0px 0px 0px;
+                z-index: 1;
     
             }
-
+        
         }
-
+        
         .nav-right {
-
+            
             gap: 22px;
+            align-items: end;
 
             .btn-cuenta {
 
                 background: none;
                 padding: 0;
-                width: 20px;
-                height: 20px;
+                width: auto;
+                height: auto;
+                display: flex;
 
-                img {
+                img {  
 
                     width: 20px;
                     height: 20px;
 
                 }
-
+                
                 a {
-
+                
                     font-size: 0;
-
+                
                 }
             }
 
             .btn-carrito {
 
                 background: none;
-                height: auto;
+                height: 20px;
                 padding: 0;
-                width: 25px;
+                width: 20px; 
 
                 img {
 
-                    width: 25px;
+                    width: 20px;
                     height: auto;
+
                 }
 
+                
                 a {
-
+                
                     font-size: 0;
-
+                
                 }
-
 
             }
 
             .close-active {
-
+        
                 display: flex;
-                width: 25px;
+                width: 20px;
+        
             }
-
+    
             .menuhamburgesa {
-
+    
                 display: flex;
-                width: 25px;
-
+                width: 20px;
+                align-self: flex-end;
             }
-
+    
             .menuhamburgesa-active {
-
+    
                 display: none;
-
-            }       
-        }
-
+                
+            }
+            
+        }  
     }
 
     /* Contenido */
@@ -180,7 +186,6 @@
 
     /* Footer */
 
-
     footer {
 
         padding: 0px;
@@ -193,8 +198,6 @@
 
         }
     }
-
-
 
 }
 

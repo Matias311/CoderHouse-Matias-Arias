@@ -298,15 +298,18 @@ footer .coppyrigght {
     opacity: 1;
     visibility: visible;
     padding: 30px 0px 0px 0px;
+    z-index: 1;
   }
   nav .nav-right {
     gap: 22px;
+    align-items: end;
   }
   nav .nav-right .btn-cuenta {
     background: none;
     padding: 0;
-    width: 20px;
-    height: 20px;
+    width: auto;
+    height: auto;
+    display: flex;
   }
   nav .nav-right .btn-cuenta img {
     width: 20px;
@@ -317,12 +320,12 @@ footer .coppyrigght {
   }
   nav .nav-right .btn-carrito {
     background: none;
-    height: auto;
+    height: 20px;
     padding: 0;
-    width: 25px;
+    width: 20px;
   }
   nav .nav-right .btn-carrito img {
-    width: 25px;
+    width: 20px;
     height: auto;
   }
   nav .nav-right .btn-carrito a {
@@ -330,11 +333,12 @@ footer .coppyrigght {
   }
   nav .nav-right .close-active {
     display: flex;
-    width: 25px;
+    width: 20px;
   }
   nav .nav-right .menuhamburgesa {
     display: flex;
-    width: 25px;
+    width: 20px;
+    align-self: flex-end;
   }
   nav .nav-right .menuhamburgesa-active {
     display: none;
