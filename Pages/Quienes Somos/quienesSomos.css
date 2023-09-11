@@ -115,6 +115,7 @@ main .container .container_main {
   background-color: #eaeef0;
   border-radius: 20px;
   width: 80%;
+  height: 80%;
 }
 main .container .container_main img {
   border-radius: 20px 0px 0px 20px;
@@ -403,7 +404,7 @@ footer .coppyrigght {
     gap: 20px;
   }
   main .container .container_main {
-    height: 50vh;
+    height: 62vh;
     width: 60vw;
     flex-direction: column;
   }
