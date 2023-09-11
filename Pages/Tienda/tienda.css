@@ -663,3 +663,12 @@ footer {
     }
 
 }
+
+@media (min-width:760px) and (max-width: 1024px) {
+
+    .card{
+        min-width: 250px;
+    }
+
+
+}

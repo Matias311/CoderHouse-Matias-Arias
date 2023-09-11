@@ -358,7 +358,7 @@ footer .coppyrigght {
     border-radius: 20px 20px 0px 0px;
   }
   main .container .container_main .container__main-informacion h1 {
-    font-size: 20px;
+    font-size: 25px;
     margin: 15px 0px 10px 0px;
   }
   main .container .container_main .container__main-informacion p {
@@ -403,7 +403,7 @@ footer .coppyrigght {
     gap: 20px;
   }
   main .container .container_main {
-    height: 80vh;
+    height: 50vh;
     width: 60vw;
     flex-direction: column;
   }
