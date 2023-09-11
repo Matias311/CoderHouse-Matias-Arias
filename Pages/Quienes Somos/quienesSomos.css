@@ -119,6 +119,7 @@ main .container .container_main {
 }
 main .container .container_main img {
   border-radius: 20px 0px 0px 20px;
+  width: 50%;
 }
 main .container .container_main .container__main-informacion h1 {
   text-align: center;
