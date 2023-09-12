@@ -797,7 +797,7 @@ footer {
 
     /* Tablet version */
 
-@media (min-width:760px) and (max-width: 1040px) {
+@media (min-width:760px) and (max-width: 1400px) {
 
     .container__contenido {
 
