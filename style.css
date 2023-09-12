@@ -166,7 +166,8 @@ nav {
     display: flex;
     gap: 30px;
     height: 70%;
-    width: 50%;
+    width: 45%;
+    min-width: 600px;
     border-radius: 19px;
     background-color: #EAEEF0;
     box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
@@ -175,7 +176,7 @@ nav {
 
 .container__contenido img {
 
-    width: 70%;
+    width: auto;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
 
@@ -690,7 +691,8 @@ footer {
         height: 90%;
         flex-direction: column;
         gap: 0px;
-
+        max-width: 370px;
+        min-width: 0px;
     }
 
     .container__contenido img {
@@ -795,7 +797,7 @@ footer {
 
     /* Tablet version */
 
-@media (min-width:762px) {
+@media (min-width:760px) and (max-width: 1040px) {
 
     .container__contenido {
 
