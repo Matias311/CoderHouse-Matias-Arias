@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #EAEEF0;
+    box-sizing: border-box;
+
+}
+
+/* Barra de navegacion */
+@import '../../components/menu';
+@import '../../components/menuResponsive';
+
+/* Contenido */
+
+.container {
+
+    height: 100vh;
+    background-image: url(../../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-form {
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: #EAEEF0;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
+        width: 50%;
+        height: 60%;
+        justify-content: center;
+        align-items: center;
+    
+        h1 {
+        
+            color: #000;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+        
+        }
+
+        label {
+        
+            color: #000;
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+        
+        }
+
+        .container-form-correo {
+        
+            display: flex;
+            flex-direction: column;
+        
+        }
+        
+        .container-form-contrasena {
+        
+            display: flex;
+            flex-direction: column;
+        
+            #contrasena {
+            
+                margin-bottom: 20px;
+            
+            }
+
+        }
+
+        input {
+        
+            width: 294px;
+            height: 25px;
+            margin-top: 10px;
+            border: 1px solid #5f7a86;
+            background: #D1DAE0;
+            outline: none;
+        
+        }
+
+        
+        button {
+        
+            width: 268px;
+            height: 43px;
+            border: 1px solid #5f7a86;
+            background-color: #A6D7F2;
+            color: #000;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+        
+        }
+
+        a {
+        
+            color: #000;
+            font-family: 'Nunito', sans-serif;
+            text-decoration: none;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            align-self: self-start;
+            padding: 50px 0px 0px 20px;
+        
+        }
+    }
+}
+
+/* Footer */
+@import '../../components/footer';
+@import '../../components/footerResponsive';
+
+
+/* Mobile responsibe */
+
+@media (min-width:320px) and (max-width: 760px) {
+
+    body {
+
+        user-select: none;
+
+    }
+
+    /* Contanedo */
+
+    .container{
+        
+        .container-form {
+    
+            width: 80%;
+            
+            a {
+        
+                padding: 30px 0px 0px 10px;
+        
+            }
+    
+        }
+
+    }
+
+}
+
+
+/* Tablet version */
+
+@media (min-width:760px) and (max-width: 1024px) {
+
+    .container {
+
+        .container-form {
+    
+            height: 50%;
+        }
+
+    }
+
+}
+
+
+/* Tablet version */
+
+@media (min-width:760px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .container{
+
+        .container-form {
+    
+            height: 80%;
+    
+            h1 {
+        
+                margin: 5px;
+                font-size: 25px;
+        
+            }
+
+            label {
+        
+                font-size: 15px;
+        
+            }
+
+            a {
+        
+                padding: 10px 0px 0px 20px;
+                font-size: 13px;
+        
+            }
+
+            button {
+        
+                width: 150px;
+                font-size: 15px;
+        
+            }
+
+        }
+
+    }
+    
+}
