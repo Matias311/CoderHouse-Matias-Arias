@@ -17,8 +17,8 @@ body {
 }
 
 /* Import */
-@import "./Components/menu";
-@import "./contenido";
-@import "./Components/footer";
-@import "./Components/responsive";
+@import "../../../components/menu";
+@import "../SASS/contenido";
+@import "../../../components/footer";
+@import "../SASS/responsive";
 
