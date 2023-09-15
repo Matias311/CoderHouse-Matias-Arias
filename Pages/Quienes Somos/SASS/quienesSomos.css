@@ -112,7 +112,7 @@ main .container {
 }
 main .container .container_main {
   display: flex;
-  background-color: #eaeef0;
+  background-color: #EAEEF0;
   border-radius: 20px;
   width: 80%;
   height: 80%;
@@ -384,6 +384,7 @@ footer .coppyrigght {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 10px;
+    padding-top: 25px;
   }
 }
 @media (min-width: 320px) and (max-width: 760px) and (orientation: landscape) {

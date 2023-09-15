@@ -7,18 +7,21 @@ html {
 }
 
 
-body {
+body { 
 
     margin: 0;
     padding: 0;
-    background-color: #EAEEF0;
-    box-sizing: border-box;
+    background-color: #EAEEF0; 
+    box-sizing: border-box; 
 
 }
 
-/* Barra de navegacion */
+/* Barra de navegacion */ 
 @import '../../components/menu';
 @import '../../components/menuResponsive';
+
+//variables
+@import '../../components/variable';
 
 /* Contenido */
 
@@ -37,7 +40,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        background-color: #EAEEF0;
+        background-color: $fondo; 
         border-radius: 20px;
         padding: 20px;
         box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
@@ -48,9 +51,9 @@ body {
     
         h1 {
         
-            color: #000;
+            color: $fontBlack;
             text-align: center;
-            font-family: 'Nunito', sans-serif;
+            font-family: $font;
             font-size: 40px;
             font-style: normal;
             font-weight: 600;
@@ -59,8 +62,8 @@ body {
 
         label {
         
-            color: #000;
-            font-family: 'Nunito', sans-serif;
+            color: $fontBlack;
+            font-family: $font;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
@@ -92,7 +95,7 @@ body {
             width: 294px;
             height: 25px;
             margin-top: 10px;
-            border: 1px solid #5f7a86;
+            border: $inputBorder;
             background: #D1DAE0;
             outline: none;
         
@@ -103,11 +106,11 @@ body {
         
             width: 268px;
             height: 43px;
-            border: 1px solid #5f7a86;
-            background-color: #A6D7F2;
-            color: #000;
+            border: $inputBorder;
+            background-color: $fontBottonColor;
+            color: $fontBlack;
             text-align: center;
-            font-family: 'Nunito', sans-serif;
+            font-family: $font;
             font-size: 20px;
             font-style: normal;
             font-weight: 400;
@@ -116,8 +119,8 @@ body {
 
         a {
         
-            color: #000;
-            font-family: 'Nunito', sans-serif;
+            color: $fontBlack;
+            font-family: $font;
             text-decoration: none;
             font-size: 15px;
             font-style: normal;

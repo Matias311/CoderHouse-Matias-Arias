@@ -1,4 +1,6 @@
-main {
+@import '../../../components/variable';
+
+main { 
 
     box-sizing: border-box;
 
@@ -10,15 +12,15 @@ main {
         background-position: center;
         height: 80vh;
         width: 100%; 
-        display: flex;
+        display: flex; 
         justify-content: center;
         align-items: center;
-        padding: 25px 0px;  
+        padding: 25px 0px;   
 
         .container_main {
 
             display: flex;
-            background-color: #eaeef0;
+            background-color: $fondo;  
             border-radius: 20px;
             width: 80%;
             height: 80%;
@@ -35,7 +37,7 @@ main {
                 h1 {
 
                     text-align: center;
-                    font-family: 'Nunito', sans-serif;
+                    font-family: $font;
                     font-size: 35px;
                     font-style: normal;
                     font-weight: 600;
@@ -43,7 +45,7 @@ main {
                 }
 
                 p{
-                    font-family: 'Nunito', sans-serif;
+                    font-family: $font;
                     padding: 20px 20px;
                     font-size: 20px;
                     font-style: normal;
@@ -51,9 +53,6 @@ main {
                     
                 }
             }
-
         }
-
     }
-
 }

@@ -14,9 +14,12 @@ body {
     background-color: #EAEEF0;
     box-sizing: border-box;
 
-}
-//menu nab
+} 
+//menu nav
 @import "./components/menu";
+
+//variables
+@import "./components/variable";
 
 //container
 main {
@@ -40,7 +43,7 @@ main {
             width: 45%;
             min-width: 600px;
             border-radius: 19px;
-            background-color: #EAEEF0;
+            background-color: $fondo;
             box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
         
             img {
@@ -61,7 +64,7 @@ main {
 
                 h2 {
                 
-                    font-family: 'Nunito', sans-serif;
+                    font-family: $font;
                     font-size: 25px;
                     font-style: normal;
                     font-weight: 600;
@@ -73,8 +76,8 @@ main {
 
                 h1 {
                 
-                    color: #000;
-                    font-family: 'Nunito', sans-serif;
+                    color: $fontBlack;
+                    font-family: $font;
                     font-size: 30px;
                     font-style: normal;
                     font-weight: 600;
@@ -84,8 +87,8 @@ main {
 
                 p {
                 
-                    color: #000;
-                    font-family: 'Nunito', sans-serif;
+                    color: $fontBlack;
+                    font-family: $font;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 600;
@@ -98,10 +101,10 @@ main {
                     width: 150px;
                     height: 57px;
                     margin: 20px 50px 0px 0px;
-                    background: #A6D7F2;
+                    background: $fontBottonColor;
                     border: none;
-                    color: #000;
-                    font-family: 'Nunito', sans-serif;
+                    color: $fontBlack;
+                    font-family: $font;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 600;
@@ -136,7 +139,7 @@ main {
                 text-decoration: underline #d1dae0;
                 text-decoration-thickness: 5px;
                 font-size: 22px;
-                font-family: 'Nunito', sans-serif;
+                font-family: $font;
                 font-style: normal;
                 font-weight: 600;
                 text-align: center;
@@ -148,7 +151,7 @@ main {
                 display: inline-flex;
                 font-size: 22px;
                 text-align: center;
-                font-family: 'Nunito', sans-serif;
+                font-family: $font;
                 font-style: normal;
                 font-weight: 600;
                 transition: 0.5s;
@@ -158,7 +161,7 @@ main {
             
             h2:hover {
             
-                color: #5f7a86;
+                color: $fontHover;
                 font-size: 23px;
             
             }
@@ -192,8 +195,8 @@ main {
                 h2 {
                 
                     margin: 5px;
-                    color: #336074;
-                    font-family: 'Nunito', sans-serif;
+                    color: $fontTitle;
+                    font-family: $font;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 600;
@@ -203,7 +206,7 @@ main {
                 p {
                 
                     margin: 0px;
-                    font-family: 'Nunito', sans-serif;
+                    font-family: $font;
                     font-size: 15px;
                     font-style: normal;
                     font-weight: 600;

@@ -11,14 +11,17 @@ body {
 
     margin: 0;
     padding: 0;
-    background-color: #EAEEF0;
+    background-color: #EAEEF0; 
     box-sizing: border-box;
 
 }
 
 /* Barra de navegacion */
-@import '../../components/menu';
+@import '../../components/menu'; 
 @import '../../components/menuResponsive';
+
+//variables
+@import '../../components/variable';
 
 /* Contenido */
 
@@ -35,7 +38,7 @@ body {
 
         .list-group-item {
         
-            background: #EAEEF0;
+            background: $fondo; 
             border: none;
         
         }
@@ -44,8 +47,8 @@ body {
         
             font-size: 25px;
             text-align: center;
-            color: #000;
-            font-family: 'Nunito', sans-serif;
+            color: $fontBlack;
+            font-family: $font;
             font-weight: 600;
         
         }
@@ -72,13 +75,13 @@ body {
         
             h1 {
             
-                color: #000;
+                color: $fontBlack;
                 text-align: center;
-                font-family: 'Nunito', sans-serif;
+                font-family: $font;
                 font-size: 25px;
                 font-style: normal;
                 font-weight: 600;
-                text-decoration: 5px underline #5f7a86;
+                text-decoration: 5px underline $fontHover;
             }
             
             h2 {
@@ -123,8 +126,8 @@ body {
                 
                     h1 {
                     
-                        color: #336074;
-                        font-family: 'Nunito', sans-serif;
+                        color: $fontTitle;
+                        font-family: $font;
                         font-size: 20px;
                         font-style: normal;
                         font-weight: 600;
@@ -133,8 +136,8 @@ body {
                     
                     p {
                     
-                        color: #000;
-                        font-family: 'Nunito', sans-serif;
+                        color: $fontBlack;
+                        font-family: $font;
                         font-style: normal;
                         font-weight: 600;
                     
@@ -190,16 +193,16 @@ body {
             .btn-primary {
         
                 background: transparent;
-                border: 1px solid #5f7a86;
-                color: #000;
+                border: 1px solid $fontHover;
+                color: $fontBlack;
         
             }
         
             .btn-primary:hover {
         
                 background: transparent;
-                border: 1px solid #5f7a86;
-                color: #000;
+                border: 1px solid $fontHover;
+                color: $fontBlack;
         
             }
         }

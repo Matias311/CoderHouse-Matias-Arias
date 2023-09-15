@@ -7,11 +7,11 @@ html {
 }
 
 
-body {
+body { 
 
     margin: 0;
     padding: 0;
-    background-color: #EAEEF0;
+    background-color: #EAEEF0; 
     box-sizing: border-box;
 
 }
@@ -21,4 +21,4 @@ body {
 @import "../SASS/contenido";
 @import "../../../components/footer";
 @import "../SASS/responsive";
-
+@import '../../../components/variable';
