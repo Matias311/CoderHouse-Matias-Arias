@@ -249,6 +249,12 @@ main {
 
 @media (min-width:320px) and (max-width: 760px) {
 
+    body {
+        
+        user-select: none;
+
+    }
+
     main {
 
         .container__best-seller {
