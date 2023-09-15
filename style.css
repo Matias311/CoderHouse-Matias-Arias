@@ -523,7 +523,6 @@ footer .coppyrigght {
     height: 200px;
   }
 }
-/* Tablet version */
 @media (min-width: 760px) and (max-width: 1400px) {
   main .container__contenido {
     width: 80%;
