@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #EAEEF0;
+    box-sizing: border-box;
+
+}
+
+/* Barra de navegacion */
+@import '../../components/menu';
+@import '../../components/menuResponsive';
+
+/* Footer */
+@import '../../components/footer';
+@import '../../components/footerResponsive';
+
+
+
+/* Contenido */
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-image: url(../../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .container__form {
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 75%;
+        border-radius: 20px;
+        background: #EAEEF0;
+        padding: 20px 20px 20px 40px;
+        box-shadow: 4px 4px 4px 0px rgba(209, 218, 224, 0.25);
+    
+        h1 {
+        
+            color: #000;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+        }
+        
+        p {
+        
+            color: #000;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+        
+        }
+
+        .formulario__container {
+        
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .container-label-all {
+            
+                display: flex;
+                gap: 20px;
+
+                .label-nombre {
+                
+                    display: flex;
+                    flex-direction: column;
+                    
+                    input {
+                    
+                        width: 283px;
+                        height: 30px;
+                        border: 1px solid #5f7a86;
+                        background: #D1DAE0;
+                        outline: none;
+                        padding: 0px 10px;
+                    }
+
+                }
+                
+                .label-email {
+                
+                    display: flex;
+                    flex-direction: column;
+                    
+                    input {
+                    
+                        width: 283px;
+                        height: 30px;
+                        border: 1px solid #5f7a86;
+                        background: #D1DAE0;
+                        outline: none;
+                        padding: 0px 10px;
+                    }
+
+                }
+
+            }
+            
+            .label {
+            
+                color: #000;
+                text-align: start;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                font-family: 'Nunito', sans-serif;
+            
+            }
+            
+            .label::placeholder {
+            
+                font-family: 'Nunito', sans-serif;
+            
+            }
+
+            #telefono {
+            
+                width: 602px;
+                height: 30px;
+                border: 1px solid #5f7a86;
+                background: #D1DAE0;
+                outline: none;
+                padding: 0px 10px;
+            }
+            
+            #mensaje {
+            
+                width: 602px;
+                height: 120px;
+                border: 1px solid #5f7a86;
+                background: #D1DAE0;
+                margin-bottom: 20px;
+                outline: none;
+                padding: 5px 10px 0px 10px;
+            
+            }
+
+
+        }
+
+        button {
+        
+            width: 130px;
+            height: 35px;
+            border: 1px solid #5f7a86;
+            background: #A6D7F2;
+            color: #000;
+            text-align: center;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-family: 'Nunito', sans-serif;
+            align-self: flex-start;
+            transition: 0.3s;
+        
+        }
+        
+        button:hover {
+        
+            transform: scale(0.95);
+            border: 1px solid #A6D7F2;
+            color: #EAEEF0;
+            background: #5f7a86;
+        
+        }
+
+    }
+
+}
+
+/* Mobile responsive */
+
+@media (min-width:320px) and (max-width: 760px) {
+
+
+    /* Nav */
+
+    body {
+
+        user-select: none;
+
+    }
+
+    /* Contactos form */
+
+    .container {
+        
+        .container__form {
+    
+            width: 70%;
+            height: 75%;
+            padding: 20px 40px;
+
+            h1 {
+        
+                font-size: 1.75rem;
+        
+            }
+
+            p {
+        
+                font-size: 1rem;
+        
+            }
+
+            .formulario__container{
+
+                .container-label-all {
+            
+                    flex-direction: column;
+                    gap: 10px;
+
+                    .label-nombre input {
+                
+                        height: 20px;
+                        width: 270px;
+                    }
+                    
+                    .label-nombre label {
+                
+                        padding-bottom: 10px;
+                    }
+            
+                    .label-email label {
+                
+                        padding-bottom: 10px;
+                    }
+                
+                    .label-email input {
+                
+                        height: 20px;
+                        width: 270px;
+                
+                    }
+                }
+                #telefono {
+            
+                    width: fit-content;
+                    height: 20px;
+                    width: 270px;
+            
+                }
+            
+                #mensaje {
+            
+                    width: fit-content;
+                    height: 90px;
+                    width: 270px;
+                    margin: 0;
+            
+                }
+            
+                .label {
+            
+                    font-size: 1rem;
+            
+                }
+            
+                button {
+            
+                    width: 100px;
+                    height: 30px;
+                }
+            } 
+        }
+    }
+}
+
+
+/* Tablet version */
+
+@media (min-width:760px) and (max-width: 1024px) {
+
+    .container {
+
+        .container__form {
+    
+            height: 70%;
+            width: 75%;
+
+            .formulario__container {
+
+                .container-label-all {
+
+                    .label-nombre input {
+                
+                        width: 250px;
+                        height: 30px;
+                
+                    }
+                
+                    .label-nombre label {
+                
+                        padding-bottom: 10px;
+                
+                    }
+                
+                    .label-email label {
+                
+                        padding-bottom: 5px;
+                
+                    }
+                
+                    .label-email input {
+                
+                        width: 250px;
+                        height: 30px;
+                
+                    }
+                }
+
+                #telefono {
+            
+                    width: auto;
+                    height: 30px;
+                }
+            
+                #mensaje {
+            
+                    width: 542px;
+                    height: 60px;
+                    margin: 0;
+            
+                }
+            
+            
+                .label {
+            
+                    font-size: 15px;
+            
+                }
+            }
+            p {
+        
+                font-size: 15px;
+        
+            }
+        }
+    }
+}
+
+@media (min-width:760px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .container {
+
+        .container__form {
+    
+            height: 85%;
+    
+            h1 {
+        
+                font-size: 25px;
+        
+            }
+        
+            p {
+        
+                margin: 5px;
+        
+            }
+
+            .formulario__container{
+
+                gap: 5px;
+
+                .container-label-all {
+
+                    .label-nombre label {
+                
+                        padding-bottom: 5px;
+                
+                    }
+                
+                    .label-email label {
+                
+                        padding-bottom: 5px;
+                
+                    }
+                
+                    .label-nombre input {
+                
+                        height: 20px;
+                
+                    }
+                
+                    .label-email input {
+                
+                        height: 20px;
+                
+                    }
+                }
+
+                #telefono {
+            
+                    height: 20px;
+            
+                }
+            
+                #mensaje {
+            
+                    height: 40px;
+            
+                }
+
+            }
+        }
+    }
+}
