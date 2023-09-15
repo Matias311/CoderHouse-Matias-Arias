@@ -408,6 +408,7 @@ footer .coppyrigght {
   /* Contanedo */
   .container .container-form {
     width: 80%;
+    min-width: 310px;
   }
   .container .container-form a {
     padding: 30px 0px 0px 10px;
