@@ -335,6 +335,7 @@ footer .coppyrigght {
   nav .nav-right .btn-carrito img {
     width: 20px;
     height: auto;
+    vertical-align: baseline;
   }
   nav .nav-right .btn-carrito a {
     font-size: 0;

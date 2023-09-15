@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #EAEEF0;
+    box-sizing: border-box;
+
+}
+
+/* Barra de navegacion */
+@import '../../components/menu';
+@import '../../components/menuResponsive';
+
+/* Contenido */
+
+.container {
+
+    display: flex;
+    padding: 25px 0px;
+    
+    aside {
+    
+        display: flex;
+        height: 90vh;
+        width: 20%;
+
+        .list-group-item {
+        
+            background: #EAEEF0;
+            border: none;
+        
+        }
+
+        .list-group h1 {
+        
+            font-size: 25px;
+            text-align: center;
+            color: #000;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+        
+        }
+    }
+
+    .dropdown {
+    
+        display: none;
+    
+    }
+
+    .container-alfajores {
+    
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        width: 80%;
+    
+        .container-titulos {
+        
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        
+            h1 {
+            
+                color: #000;
+                text-align: center;
+                font-family: 'Nunito', sans-serif;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 600;
+                text-decoration: 5px underline #5f7a86;
+            }
+            
+            h2 {
+            
+                font-size: 25px;
+            
+            }
+
+        }
+
+        .card-container {
+        
+            padding-top: 20px;
+            display: flex;
+            gap: 8%;
+            justify-content: center;
+            flex-wrap: wrap;
+            
+            .card {
+            
+                width: 25%;
+                min-width: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: transparent;
+                border: none;
+            
+                img {
+                
+                    width: 259px;
+                    height: 259px;
+                    box-shadow: 9px 5px 11px 0px #D1DAE0;
+                
+                }
+
+                .card-body {
+                
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                
+                    h1 {
+                    
+                        color: #336074;
+                        font-family: 'Nunito', sans-serif;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        text-align: center;
+                    }
+                    
+                    p {
+                    
+                        color: #000;
+                        font-family: 'Nunito', sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                    
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+/* Footer */
+@import '../../components/footer';
+@import '../../components/footerResponsive';
+
+
+/* Mobile responsibe */
+
+@media (min-width:320px) and (max-width: 760px) {
+
+    body {
+
+        user-select: none;
+
+    }
+
+    /* Contenido */
+
+    .container {
+
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        aside {
+    
+            display: none;
+    
+        }
+    
+        .dropdown {
+    
+            display: flex;
+            align-self: self-start;
+            padding-left: 10px;
+    
+            .dropdown-img {
+        
+                width: 20px;
+        
+            }
+            
+            .btn-primary {
+        
+                background: transparent;
+                border: 1px solid #5f7a86;
+                color: #000;
+        
+            }
+        
+            .btn-primary:hover {
+        
+                background: transparent;
+                border: 1px solid #5f7a86;
+                color: #000;
+        
+            }
+        }
+
+        .container-alfajores{
+
+            .container-titulos {
+        
+                display: none;
+        
+            }
+        }
+    }
+
+
+}
+
+@media (min-width:760px) and (max-width: 1024px) {
+
+    .card {
+        min-width: 250px;
+    }
+
+}
