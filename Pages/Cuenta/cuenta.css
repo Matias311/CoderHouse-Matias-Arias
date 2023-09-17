@@ -413,6 +413,18 @@ footer .coppyrigght {
   .container .container-form a {
     padding: 30px 0px 0px 10px;
   }
+  .container .container-form input {
+    width: 250px;
+  }
+  .container .container-form label {
+    font-size: 15px;
+  }
+  .container .container-form h1 {
+    font-size: 30px;
+  }
+  .container .container-form button {
+    width: 130px;
+  }
 }
 /* Tablet version */
 @media (min-width: 760px) and (max-width: 1024px) {
