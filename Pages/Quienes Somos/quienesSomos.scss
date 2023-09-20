@@ -1,26 +1,112 @@
-/* Mobile responsibe */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #EAEEF0;
+
+}
+
+// Barra 
+@import "../../components/menu";
+@import "../../components/menuResponsive";
+
+// Footer 
+@import "../../components/footer";
+@import "../../components/footerResponsive";
+
+// variables
+@import "../../components/variable";
+
+main {
+
+    box-sizing: border-box;
+
+    .container {
+
+        background-image: url(../../img/fondo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 80vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 0px;
+
+        .container_main {
+
+            display: flex;
+            background-color: $fondo;
+            border-radius: 20px;
+            width: 80%;
+            height: 80%;
+
+            img {
+
+                border-radius: 20px 0px 0px 20px;
+                width: 50%;
+
+            }
+
+            .container__main-informacion {
+
+                h1 {
+
+                    text-align: center;
+                    font-family: $font;
+                    font-size: 35px;
+                    font-style: normal;
+                    font-weight: 600;
+
+                }
+
+                p {
+                    font-family: $font;
+                    padding: 20px 20px;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+
+                }
+            }
+        }
+    }
+}
+
+/* Mobile responsibe */ 
 
 @media (min-width:320px) and (max-width: 760px) {
 
     body {
-        
+
         user-select: none;
-        
+
     }
 
-    /* Nav */
-
-    @import "../../../components/menuResponsive";
-    
     /* Contenido */
 
     main {
-
         .container {
 
             height: 100vh;
-        
-            .container_main{
+
+            .container_main {
 
                 flex-direction: column;
                 width: 90%;
@@ -29,21 +115,21 @@
                 img {
 
                     height: 40%;
-                    width: 100%; 
+                    width: 100%;
                     border-radius: 20px 20px 0px 0px;
-                
+
                 }
 
                 .container__main-informacion {
 
-                    h1{
+                    h1 {
 
                         font-size: 25px;
                         margin: 15px 0px 10px 0px;
 
                     }
 
-                    p{
+                    p {
 
                         font-size: 16px;
                         padding: 0px 20px;
@@ -57,11 +143,6 @@
         }
 
     }
-
-    /* Footer */
-
-    @import "../../../components/footerResponsive";
-
 }
 
 @media (min-width:320px) and (max-width: 760px) and (orientation: landscape) {
@@ -70,7 +151,7 @@
 
         .container {
 
-            .container_main{
+            .container_main {
 
                 height: 95vh;
                 width: 90vw;
@@ -85,15 +166,15 @@
                 }
 
                 .container__main-informacion {
-                    
-                    h1{
+
+                    h1 {
 
                         font-size: 20px;
                         margin: 20px 0px 10px 0px;
 
                     }
 
-                    p{
+                    p {
 
                         font-size: 15px;
                         padding: 0px 20px;
@@ -129,7 +210,7 @@
 
         .container {
 
-            .container_main{
+            .container_main {
 
                 height: 80vh;
                 width: 60vw;
@@ -144,14 +225,14 @@
 
                 .container__main-informacion {
 
-                    h1{
+                    h1 {
 
                         font-size: 30px;
                         margin: 15px 0px 10px 0px;
 
                     }
 
-                    p{
+                    p {
 
                         font-size: 20px;
                         padding: 0px 20px;
@@ -173,18 +254,18 @@
 
 @media (min-width:760px) and (max-width: 1024px) and (orientation: landscape) {
 
-    main{
-        .container{
+    main {
+        .container {
 
             height: 100vh;
 
-            .container_main{
+            .container_main {
 
                 flex-direction: row;
                 height: 75%;
                 width: 90%;
 
-                img{
+                img {
 
                     height: 100%;
                     width: 50%;
@@ -194,16 +275,16 @@
 
                 .container__main-informacion {
 
-                    h1{
+                    h1 {
 
                         font-size: 20px;
                         margin: 20px 0px 10px 0px;
 
                     }
 
-                    p{
+                    p {
 
-                        font-size: 15px;  
+                        font-size: 15px;
                         padding: 0px 20px;
 
                     }

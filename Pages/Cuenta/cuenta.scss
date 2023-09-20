@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+* {
+
+    box-sizing: border-box;
+
+}
+
 html {
 
     scroll-behavior: smooth;
@@ -12,16 +18,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: #EAEEF0; 
-    box-sizing: border-box; 
 
 }
 
 /* Barra de navegacion */ 
-@import '../../components/menu';
-@import '../../components/menuResponsive';
+@import "../../components/menu";
+@import "../../components/menuResponsiveCuenta";
+
+/* Footer */
+@import "../../components/footer";
+@import "../../components/footerResponsive"; 
 
 //variables
-@import '../../components/variable';
+@import "../../components/variable";
 
 /* Contenido */
 
@@ -137,11 +146,6 @@ body {
         }
     }
 }
-
-/* Footer */
-@import '../../components/footer';
-@import '../../components/footerResponsive';
-
 
 /* Mobile responsibe */
 

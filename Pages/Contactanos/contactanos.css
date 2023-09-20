@@ -112,8 +112,8 @@ nav .nav-right .close {
     flex-direction: column;
     position: absolute;
     right: 0;
-    top: 51px;
-    height: 25%;
+    top: 55px;
+    height: 200px;
     width: 40%;
     padding-right: 25px;
     padding-top: 20px;

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
+* {
+
+    box-sizing: border-box;
+
+}
+
 html {
 
     scroll-behavior: smooth;
@@ -12,7 +18,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #EAEEF0; 
-    box-sizing: border-box;
 
 }
 
